@@ -1,6 +1,12 @@
-namespace Gameplay;
+using CreateName;
 
-public class GameplayClass
+namespace Gameplay
 {
-
+    public class GameplayClass
+    {
+        public static void GameplayFunction()
+        {
+            string playerName = CreateNameClass.name;
+        }
+    }
 }

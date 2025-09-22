@@ -2,10 +2,12 @@ namespace CreateName
 {
     public class CreateNameClass
     {
+        // Variável pública e estática para ser acessada de fora
+        public static string name = "";
+
         public static void CreateNameFunction()
         {
             //Var for the player name and confirmation
-            string name = "";
             char answer = 'N';
 
             do
@@ -44,7 +46,7 @@ namespace CreateName
                     Console.Clear();
                     continue;
                 }
-            } while (answer != 'Y'); //Devo entender o funcionamento deste loop
+            } while (answer != 'Y');
         }
     }
 }

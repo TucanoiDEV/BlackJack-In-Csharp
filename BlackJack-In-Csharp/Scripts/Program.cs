@@ -11,6 +11,8 @@ public class BlackJackMain
         Clear();
 
         CreateNameClass.CreateNameFunction();
+        GameplayClass.GameplayFunction();
+
 
     }
 
