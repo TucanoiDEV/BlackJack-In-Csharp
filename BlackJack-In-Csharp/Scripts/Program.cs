@@ -1,17 +1,16 @@
 ﻿using Gameplay;
+using CreateName;
+using System.Threading;
 
 public class BlackJackMain
 {
     static void Main()
     {
-        //Var for the player name
-        string name;
-
         Console.WriteLine("WELCOME TO MY NEW BLACKJACK GAME!!!");
-        Console.ReadKey();
-        Console.WriteLine("Press any key when you are ready!");
+        Console.WriteLine("press any key when you are ready!");
         Clear();
 
+        CreateNameClass.CreateNameFunction();
 
     }
 
