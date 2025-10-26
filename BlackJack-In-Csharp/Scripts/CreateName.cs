@@ -23,7 +23,6 @@ namespace CreateName
                     continue;
                 }
 
-                //Teste
                 Console.Clear();
                 Console.WriteLine($"Is your name {name} ?");
                 Console.WriteLine("'y' for yes / 'any other key' for no");

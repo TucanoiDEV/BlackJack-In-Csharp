@@ -49,6 +49,9 @@ namespace Gameplay
             {
                 Console.WriteLine("You don´t have any tips ;(");
             }
+
+            Console.Clear();
+            Console.WriteLine("So... let's see your hand!");
         }
     }
 }
